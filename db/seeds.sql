@@ -1,11 +1,11 @@
-INSERT INTO department (name)
+INSERT INTO department (department_name)
 VALUES
 ('IT'),
 ('Finance'),
 ('Sales'),
 ('Customer Service');
 
-INSERT INTO role(title,salary,department_id)
+INSERT INTO empoyee_role(title,salary,department_id)
 VALUES
 ('Software Engineer',60000,1),
 ('Accountant',50000,2),
